@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name" translatable="false">DOGG</string>
+    <string name="vaga">vaga</string>
+    <string name="olman">olman</string>
+    <string name="pickle">pickle</string>
+    <string name="kairos">kairos</string>
+    <string name="dozo">dozo</string>
 </resources>
