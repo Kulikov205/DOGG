@@ -29,7 +29,7 @@
         android:text="@string/dozo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/dozo" />
+        app:srcCompat="@drawable/d" />
 
     <ImageButton
         android:id="@+id/kairos"
@@ -44,7 +44,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/vaga"
         app:layout_constraintStart_toEndOf="@+id/dozo"
-        app:srcCompat="@drawable/kairos" />
+        app:srcCompat="@drawable/k" />
 
     <ImageButton
         android:id="@+id/vaga"
@@ -59,7 +59,7 @@
         android:text="@string/vaga"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/vaga" />
+        app:srcCompat="@drawable/v" />
 
     <ImageButton
         android:id="@+id/pickle"
@@ -74,7 +74,7 @@
         android:text="@string/pickle"
         app:layout_constraintBottom_toTopOf="@+id/kairos"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/pickle" />
+        app:srcCompat="@drawable/p" />
 
     <ImageButton
         android:id="@+id/olman"
@@ -89,6 +89,51 @@
         android:text="@string/olman"
         app:layout_constraintBottom_toTopOf="@+id/kairos"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/olman" />
+        app:srcCompat="@drawable/o" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:text="Pickle"
+        app:layout_constraintBottom_toTopOf="@+id/pickle"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kairos"
+        app:layout_constraintBottom_toTopOf="@+id/kairos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:text="HyperPC"
+        app:layout_constraintBottom_toTopOf="@+id/dozo"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:text="Olman"
+        app:layout_constraintBottom_toTopOf="@+id/olman"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="84dp"
+        android:text="Vaga"
+        app:layout_constraintBottom_toTopOf="@+id/vaga"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
